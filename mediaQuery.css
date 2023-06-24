@@ -1,0 +1,175 @@
+.dark-body{
+     background-color: rgba(66, 63, 63, 0.818);
+     color:white;
+}
+.dark-main{
+  background: linear-gradient(rgba(30, 27, 27, 0.748), rgba(0, 0, 0, 0.825));
+  color:white;
+}
+.dark-about{
+  background-color: rgba(92, 92, 92, 0.582);
+  color:white;
+}
+.dark-education{
+  background-color: rgba(24, 17, 17, 0.818);
+  color:white;
+}
+.dark-projects{
+  background-color: rgba(31, 28, 28, 0.818);
+  color:white;
+}
+.dark-contact{
+  background-color: rgba(90, 89, 89, 0.818);
+  color:white;
+}
+.dark-footer{
+  background: linear-gradient(rgba(56, 54, 54, 0.748), rgba(13, 13, 13, 0.825));
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+
+  :root{
+    font-size: small;
+  }
+
+  .logo::after{
+    top: 10px;
+    left: 56px;
+  }
+    .about-img{
+        position: absolute;
+        top: 15rem;
+        right: 5rem;
+        width: 14rem;
+    }
+    
+    .contact-inner{
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    body{
+      font-size: small;
+    }
+    .about-i{
+      padding: 2rem;
+    }
+    .nav{
+        display: none;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        width: auto;
+        margin: 0 auto;
+    }
+    .navbar{
+      background-color: white;
+      min-height: 5rem;
+      padding: 1.8rem 3rem;
+      font-size: 1.5rem;
+  
+    }
+    .hidden{
+      display: flex;
+    direction: rtl;
+    }
+    .about-img{
+      width: 10rem;
+      top: 13rem;
+      right: 3rem;
+    }
+    .main{
+      padding: 0rem 2rem;
+    }
+    .about{
+      padding: 1rem 2rem;
+    }
+    .education{
+      padding: 1rem 2rem;
+    }
+    .contact{
+      padding:  1rem 2rem;
+    }
+    .projects{
+      padding:  1rem 2rem;
+    }
+    .skills{
+      width: 100%;
+    }
+    .skills-list{
+      width: 70%;
+    }
+
+  }
+  
+  @media only screen and (max-width: 550px){
+    .home-right{
+      display: none;
+    }
+    .home{
+      width: 80%;
+    }
+    .about-img{
+      display: none;
+      top: 25rem;
+    }
+    .skills-list{
+      width: 100%;
+    }
+    .contact-content{
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-inner{
+      width: 90%;
+    }
+    .footer-logo::after{
+      top: 5px;
+      left: 44px;
+    }
+    .footer-icon a img{
+      width: 2rem ;
+    }
+    .footer-icon{
+      right: 1rem;
+    }
+    .skills-list{
+      width: 100%;
+    }
+    .skills{
+      width: 100%;
+    }
+    .main{
+      padding: 0rem ;
+    }
+    .about{
+      padding: 1rem 1.5rem ;
+    }
+    .education{
+      padding: 1rem ;
+    }
+    .contact{
+      padding:  1rem;
+    }
+    .projects{
+      padding:  1rem ;
+    }
+  }

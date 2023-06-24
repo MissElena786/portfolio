@@ -1,0 +1,430 @@
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'poppins' sans-serif;
+    overflow-x: hidden;
+}
+
+.dark{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+
+/* font-family: "Clicker Scrypt" , cursive; */
+
+.container{
+    /* padding-top: 5rem; */
+    /* min-width: 100% */
+};
+.navbar{
+    position: fixed;
+    /* position: relative; */
+display: flex;
+max-width: 100%;
+align-items: center;
+    /* background-color: var(--bg-black-50); */
+    background-color: white;
+    justify-content: space-evenly;
+    /* color: var(--text-black-700); */
+ z-index: 3;
+    padding: 1.5rem 1rem;
+    border-bottom: 2px solid #ddd;
+}
+.logo{
+    padding: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+}
+.span{
+    position: relative;
+    padding: 0.5rem;
+}
+.logo {
+   /* background-color: rgba(7, 3, 126, 0.656);  */
+   /* width: 5rem; */
+   padding: 0.5rem 1rem;
+   font-size: 1.5rem;
+}
+.logo::before{
+    position: absolute;
+    padding: 0.5rem;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 4px solid rgb(23, 12, 231);
+    top: 4px;
+    left: 2px;
+    border-right: none;
+    border-bottom: none;
+    transition: hieght 0.5s linear, width 0.5s linear 0.5s;
+}
+
+.logo::after{
+    position: absolute;
+    padding: 0.5rem;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 4px solid rgb(23, 12, 231);
+    top: 16px;
+    left: 80px;
+    border-left: none;
+    border-top: none;
+    transition: hieght 0.5s linear, width 0.5s linear 0.5s;
+}
+.logo-i{
+    color: rgb(74, 14, 240);
+    word-spacing: 5px;
+    font-family: "Clicker Scrypt" ;
+
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    align-self: self-end;
+    
+    /* align-items: center */
+    padding: 0.8rem;
+    width: 80%;
+
+}
+.s-icon{
+    width: 19%;
+}
+
+.nav li {
+    list-style: none;
+    margin: 1rem;
+    color: grey;
+    /* color: var(--text-black-700); */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav li a{
+    
+    padding:0.3rem  0.5rem;
+    color: rgb(56, 52, 52);
+
+}
+.nav li :hover{
+    border: 2px solid rgb(163, 187, 228);
+}
+.fa-sun{
+    color: orange;
+    font-size: 1.7rem;
+}
+.fa-moon{
+    color: rgb(68, 68, 67);
+    font-size: 1.7rem;
+}
+.main{
+    padding-top: 5rem;
+    display: flex;
+    max-width: 100%;
+    min-height: 100vh;
+    /* background-color: var(--bg-black-100); */
+    /* color: var(--text-black-900); */
+    background: linear-gradient( rgb(222, 229, 232), rgb(185, 212, 230),rgba(143, 191, 216, 0.902));
+}
+.webDoveloper{
+   
+    font-size: 2rem;
+
+    animation-duration: 3s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: blueviolet;}
+    50%  {color: orange;}
+    100% {color: green;}
+
+    from {
+        margin-left: 40%;
+        width: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+    
+  }
+}
+
+
+.home{
+    width: 60%;
+    padding: 5rem;
+    padding-top: 7rem 5rem 0rem 4rem;
+
+}
+.home-right{
+    max-width: 40%;
+    padding: 2rem;
+    background: none;
+    padding-top: 9rem;
+    
+}
+.home-right img{
+    height: 50%;
+width: 100%;
+background: none;
+}
+
+.about{
+    max-width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(244, 242, 242);
+    padding: 4rem 6rem;
+    min-height: 90vh;
+    position: relative;
+}
+.about-i{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    
+}
+
+.about-para{
+    color: rgba(41, 40, 40, 0.846);
+}
+.skills{
+    /* display: flex; */
+    font-size: 1rem;
+    width: 70%;
+}
+.skills h3{
+    margin: 1rem;
+    font-size: 2rem;
+
+}
+.skills-list{
+    display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.skills-list div{
+    margin: 0.7rem;
+    color: rgb(8, 8, 125);
+    /* box-shadow: 0 0rem 0.5rem rgb(169, 215, 232); */
+    box-shadow: 0 0rem 0.5rem  rgba(16, 16, 16, 0.713);
+    width: auto;
+    padding: 0.2rem 0.8rem;
+    /* border: 2px solid rgb(143, 191, 216, 0.902); */
+}
+.about-img{
+    max-width: 17rem;
+ position: absolute;
+ top: 12rem;
+ right: 13rem;
+}
+.about-img img{
+    width: 100%;
+}
+.resume-btn{
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin: 2rem 2rem 0rem  1rem;
+    background: linear-gradient(to left, rgb(173, 223, 254),rgb(121, 217, 244), rgb(97, 213, 255) );
+    box-shadow: 0 0 1rem rgba(247, 247, 247, 0.897);
+}
+
+
+.education{
+    background-color: rgb(201, 214, 232);
+    padding: 4rem 6rem;
+}
+.education-inner{
+    font-size: 1rem;
+    margin: 1rem;
+}
+.education-inner h4{
+    font-size: 1.5rem;
+}
+.education-inner div{
+    padding: 1rem;
+}
+.para{
+    color: rgb(37, 37, 37);
+}
+
+.education-sub-para{
+    margin-bottom: 0.5rem;
+    color:red ;
+    font-size: 1.3rem;
+
+}
+
+.projects{
+    background-color: rgb(216, 216, 216);
+    padding: 4rem 6rem;
+}
+.projects-inner{
+    /* max-width: 100rem; */
+    margin:0 auto;
+    /* grid-auto-flow: row; */
+    /* display:grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-gap: 3rem; */
+    /* overflow: scroll; */
+
+
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* flex: 0 1 2; */
+    max-width: 100%;
+    justify-content: center;
+    
+}
+.projects-inner div img{
+    display: flex;
+    max-width: 20rem;
+
+    border: 1rem solid white;
+    border-radius: 5px;
+    /* margin-top: 1rem; */
+}
+.projects-inner div{
+}
+.projects-heading{
+    margin-bottom: 2rem;
+}
+
+
+.contact{
+    padding: 4rem 6rem;
+    background-color: rgb(255, 255, 255);
+}
+.contact-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+.contact-inner fieldset{
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+}
+.form input{
+    border-radius: 0.4rem;
+    height: 2rem;
+    width: 100%;
+    margin: 0.7rem 0;
+    padding: 0.5rem 1rem ;
+}
+.submit{
+    background-color: rgb(156, 192, 253);
+    color: black;
+    padding: 0.6rem 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 1rem rgba(181, 181, 181, 0.721);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+.form textarea{
+    width: 100%;
+    color: rgb(11, 11, 11);
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(232, 232, 232);
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+.contact-content{
+    display: flex;
+   justify-content: space-between;
+   margin: 2rem 0;  
+   text-align: center;
+}
+.contact-content .fa{
+    color: red;
+}
+.footer{
+    background: linear-gradient( rgb(222, 229, 232), rgb(185, 212, 230),rgba(143, 191, 216, 0.902));
+    padding: 2rem 3rem;
+    position: relative;
+    margin-bottom: 0;
+    height: 100%;
+
+
+}
+.footer-logo{
+   position: absolute;
+ top: 1.5rem;
+ left: 2rem;
+}
+.footer-logo::before{
+    position: absolute;
+    padding: 0.5rem;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 4px solid rgb(23, 12, 231);
+    top: -6px;
+    left: -14px;
+    border-right: none;
+    border-bottom: none;
+    transition: hieght 0.5s linear, width 0.5s linear 0.5s;
+}
+.footer-logo::after{
+    position: absolute;
+    padding: 0.5rem;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 4px solid rgb(23, 12, 231);
+    top: 10px;
+    left: 61px;
+    border-left: none;
+    border-top: none;
+    transition: hieght 0.5s linear, width 0.5s linear 0.5s;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-main-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    position: absolute;
+    right: 3rem;
+}
+
+.hidden{
+    display: none;
+}
