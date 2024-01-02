@@ -29,7 +29,7 @@ function Projects() {
         <p> ecommerce website which is build on MERN stack</p>
     </div>
     </div>
-    <div class='item'>
+    <div className='item'>
     <img src={lms} alt="img" />
     <div className='inner-item'>
 
@@ -37,33 +37,33 @@ function Projects() {
         <p> learning management system which is build on MERN stack</p>
     </div>
     </div>
-    <div class='item'>
+    <div className='item'>
     <img src={movie} alt="img" />
     <div className='inner-item'>
         <h4>Movie Search App</h4>
         <p>movie search app you can search movie by the name</p>
         </div> 
     </div>
-    <div class='item'>
+    <div className='item'>
     <img src={ecom_react} alt="img" />
     <div className='inner-item'>
         <h4>Ecommerce React frontend</h4>
         <p> ecommerce which is built on react, react-redux. </p>
         </div>    </div>
-    <div class='item'>
+    <div className='item'>
     <img src={gallery} alt="img" />
     <div className='inner-item'>
         <h4>Gallery App</h4>
         <p> Gallery app the api. All photos fetching by the third Party api</p>
         </div>
     </div>
-    <div class='item'>
+    <div className='item'>
     <img src={calcy} alt="img" />
     <div className='inner-item'>
         <h4>Calculator </h4>
         <p>this is a calculator. you can perform arithmatic oprations</p>
         </div>    </div>
-    <div class='item'>
+    <div className='item'>
     <img src={quiz} alt="img" />
     <div className='inner-item'>
         <h4>Quiz App</h4>
@@ -71,25 +71,25 @@ function Projects() {
         </div>
         
     </div>
-    <div class='item'>
+    <div className='item'>
     <img src={landscap} alt="img" />
     <div className='inner-item'>
         <h4>Landscap Website</h4>
         <p> landscap website. built on HTML, Css , Javascript, and Node</p>
         </div>    </div>
-    <div class='item'>
+    <div className='item'>
     <img src={dice} alt="img" />
     <div className='inner-item'>
         <h4>Dice Game</h4>
         <p>Dice game of the 2 players. dom manupulation project. </p>
         </div>    </div>
-    <div class='item'>
+    <div className='item'>
     <img src={num_gassing} alt="img" />
     <div className='inner-item'>
         <h4>Number Gassing Game</h4>
         <p> number gassing game this is also a dom manupulation project.</p>
         </div>    </div>
-    <div class='item'>
+    <div className='item'>
     <img src={ecom} alt="img" />
     <div className='inner-item'>
         <h4>Ecomerce website</h4>

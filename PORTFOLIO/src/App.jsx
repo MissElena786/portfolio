@@ -12,7 +12,6 @@ import Contact from './Portofolio/Contact'
 import Footer from './Portofolio/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
        <div>
