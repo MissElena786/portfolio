@@ -43,7 +43,7 @@ max-width: 100%;
 align-items: center;
     /* background-color: var(--bg-black-50); */
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* color: var(--text-black-700); */
  z-index: 3;
     padding: 1.5rem 1rem;
