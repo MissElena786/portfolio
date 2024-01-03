@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import './App.css'
-import "./index.css"
+// import './App.css'
+// import "./index.css"
 import Main from './Portofolio/Main'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './Portofolio/Header'

@@ -1,6 +1,6 @@
-*{
-  box-sizing: border-box;
-}
+
+  
+
 :root{
   scroll-behavior: smooth;
 }
@@ -19,10 +19,8 @@ body{
 .main{
   padding: 4rem ;
   padding-top: 7rem;
-  /* padding-bottom: 10rem !important; */
 
   max-width: 100vw;
-  /* height: auto; */
   min-height: 100vh;
 
   background: linear-gradient(  #5e1c44ee, black);
@@ -32,33 +30,26 @@ body{
 .right{
   height: 40%;
   width: 30%;
-  /* border-radius: 100%; */
-  /* border: 2px solid white; */
   position: absolute;
-  /* min-height: 90vh; */
   right: 10rem;
   top: 10rem;
 
   
-  /* width: 50%; */
 }
 .right >img{
   height: 100%;
   width: 100%;
-  /* border-radius: 100%; */
-  /* transform: rotate(-20deg); */
+
 
 }
 .left{
   color: #D6A2E8;
-  /* font-size: 1rem; */
- /* max-width: 100%; */
+ 
 }
 .developer{
   color: #e9c4f6;
   display: flex;
   height: 2rem;
-  /* width: 60%; */
   align-items: center;
   padding: 0px;
 
@@ -75,14 +66,13 @@ body{
 .developer > span{
  
     display: flex;
-    /* width: auto; */
     align-items: center;
     max-width: 80vw;
-    /* width: 10rem; */
     background-color: aliceblue;
   
+  }
 
-}
+/*
 .developer span::before{
 
   content: "";
@@ -90,8 +80,6 @@ body{
   display: flex;
   align-self: center;
   align-items: center;
-  /* background-color: blueviolet; */
-  /* animation: words 15s infinite ; */
 
 }
 
@@ -99,21 +87,17 @@ body{
   position: absolute;
   padding: 0.5rem;
   content: "Full Stack Web Developer";
-  /* height: 30px; */
-  /* width: calc(100% + 8px); */
- /* max-width: 100%; */
+
   white-space: nowrap;
   overflow: hidden; 
-  /* background-color: brown; */
 
   animation: repeatText 30s linear infinite; 
   animation:  typing 20s steps(40) infinite;
   animation: blink 0.9s infinite, cursor 0.9s infinite, typing 20s steps(14) infinite;
-  /* animation: repeatText 30s linear infinite, typing 20s steps(40) infinite;  */
 
 
 }
-
+ */
 
 @keyframes repeatText {
   0% {
@@ -135,7 +119,6 @@ body{
 }
 
 .name{
-  /* height:3rem ; */
   padding: 0px;
   margin-top: 0px;
 }
@@ -179,14 +162,11 @@ body{
   color: rgb(93, 35, 239);
 }
 
-/* //////////////////////////////////////////// */
 
 
 
 .footer-container{
-    /* width: 100%;  */
-    
-    /* position; */
+
     bottom: 0;
     left: 0;
     background-color: #e9c4f6;
@@ -202,9 +182,8 @@ body{
 .footer-icon{
   font-size: 2rem;
   color: #0a030d;
-  /* margin: 1rem; */
 }
-.footer-icon i {
+.footer-icon  i {
   color: black;
   margin-left: 1rem;
 }
