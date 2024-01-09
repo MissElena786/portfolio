@@ -31,7 +31,7 @@ body{
   height: 40%;
   width: 30%;
   position: absolute;
-  right: 10rem;
+  right: 7rem;
   top: 10rem;
 
   
@@ -93,7 +93,7 @@ body{
 
   animation: repeatText 30s linear infinite; 
   animation:  typing 20s steps(40) infinite;
-  animation: blink 0.9s infinite, cursor 0.9s infinite, typing 20s steps(14) infinite;
+  animation: blink 0.9s infinite, cursor 0.2s infinite, typing 20s steps(20) infinite;
 
 
 }
@@ -101,7 +101,8 @@ body{
 
 @keyframes repeatText {
   0% {
-    transform: translateX(0%);
+    /* transform: translateX(0%); */
+    transform: translate(0%);
   }
   100% {
     transform: translateX(-100%);
@@ -114,7 +115,7 @@ body{
    width: 0;
   }
   5%,20%,25%,40%,45%,60%, 65%,80%, 85%,95%,100%{
-    width: calc(100% + 4px);
+    width: calc(100% + 8px);
    }
 }
 
@@ -122,6 +123,9 @@ body{
   padding: 0px;
   margin-top: 0px;
 }
+/* .name  > .main-name{
+  color: rgba(
+} */
 .hello{
   font-size: 1.5rem;
   height: 2rem;

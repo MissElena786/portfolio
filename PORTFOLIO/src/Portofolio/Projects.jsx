@@ -41,7 +41,7 @@ function Projects() {
     </div>
     </div>
     <div className='item'>
-    <Link to="https://movie-search-app-pi-eight.vercel.app/">
+    <Link to="https://movie-search-app-pi-eight.vercel.app/" target='_blank'>
 
     <img src={movie} alt="img" />
     <div className='inner-item'>
@@ -51,7 +51,7 @@ function Projects() {
         </Link>
     </div>
     <div className='item'>
-    <Link to="https://ecommerce-website-sand.vercel.app/">
+    <Link to="https://ecommerce-website-sand.vercel.app/" target='_blank'>
     <img src={ecom_react} alt="img" />
     <div className='inner-item'>
 
@@ -60,7 +60,7 @@ function Projects() {
         </div> 
         </Link>   </div>
     <div className='item'>
-    <Link to="https://gallery-project-eight.vercel.app/">
+    <Link to="https://gallery-project-eight.vercel.app/" target='_blank'>
     <img src={gallery} alt="img" />
     <div className='inner-item'>
         <h4>Gallery App</h4>
@@ -101,7 +101,7 @@ function Projects() {
         <p className='description'> number gassing game this is also a dom manupulation project.</p>
         </div>    </div>
     <div className='item'>
-        <Link to="https://vegetables-website-eight.vercel.app/">
+        <Link to="https://vegetables-website-eight.vercel.app/" target='_blank'>
     <img src={ecom} alt="img" />
     <div className='inner-item'>
         <h4>Ecomerce website</h4>
@@ -110,7 +110,7 @@ function Projects() {
       </Link>
     </div>
     <div className='item'>
-        <Link to="https://recipe-app.vercel.app/">
+        <Link to="https://recipe-app.vercel.app/" target='_blank'>
     <img src={reciep} alt="img" />
     <div className='inner-item'>
         <h4>Reciep website</h4>
