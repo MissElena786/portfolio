@@ -1,5 +1,6 @@
 import React from 'react'
 import "../index.css"
+import { Link } from 'react-router-dom'
 
 function About() {
    return (
@@ -32,7 +33,9 @@ function About() {
 
                </div>
                <div className='btn'>
+                  <Link to="https://drive.google.com/drive/u/0/folders/1r1b60LT-to-VL30alxARnpquqiI3JJWF" target='_blank'>
                   <button className='button'> Resume</button>
+                  </Link>
                </div>
             </div>
          </div>
