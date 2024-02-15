@@ -23,8 +23,9 @@ function About() {
                   <div>React</div>
                   <div>Node</div>
                   <div>MongoDB</div>
+                  <div>MySQL</div>
                   <div>Express</div>
-                  <div>Bootstrape</div>
+                  <div>Bootstrap</div>
                   <div>Tailwind Css</div>
                   <div>Git</div>
                   <div>Github</div>

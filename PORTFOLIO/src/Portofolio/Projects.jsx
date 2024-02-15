@@ -45,15 +45,15 @@ function Projects() {
         <p className='description'> learning management system which is build on MERN stack</p>
     </div>
     </div>
-    <div className='item'>
+    <div className='item '>
     <Link to="https://movie-search-app-pi-eight.vercel.app/" target='_blank'>
 
     <img src={movie} alt="img" />
       </Link>
-    <div className='inner-item'>
+    <div className='inner-item '>
         <h4>Movie Search App</h4>
+        <p className='description '>movie search app you can search movie by the name</p>
         </div> 
-        <p className='description'>movie search app you can search movie by the name</p>
     </div>
     <div className='item'>
     <Link to="https://ecommerce-website-sand.vercel.app/" target='_blank'>
