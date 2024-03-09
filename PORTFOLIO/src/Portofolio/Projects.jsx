@@ -10,6 +10,7 @@ import ecom from "../assets/ecom.png"
 import ecom_react from "../assets/ecom-react.png"
 import calcy from "../assets/calculator.png"
 import dice from "../assets/dice-game.png"
+import blog from "../assets/blog.png"
 import num_gassing from "../assets/number-gassing.png"
 import movie from "../assets/movie-search (2).png"
 import landscap from "../assets/landscap.png"
@@ -46,7 +47,21 @@ function Projects() {
     </div>
     </div>
     <div className='item '>
+
+    <Link to="https://blog-application-ten-iota.vercel.app/" target='_blank'>
+    <img src={blog} alt="img" />
+
+      </Link>
+    <div className='inner-item '>
+        <h4>Blog application</h4>
+        <p className='description '>this is a blog application. where you can create own blogs  </p>
+        </div> 
+      </div> 
+
+    <div className='item '>
     <Link to="https://movie-search-app-pi-eight.vercel.app/" target='_blank'>
+    {/* <Link to="https://blog-application-ten-iota.vercel.app/" target='_blank'> */}
+
 
     <img src={movie} alt="img" />
       </Link>
